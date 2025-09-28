@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Predicate;
@@ -7,9 +7,9 @@ import java.util.logging.Level;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Clase principal de la cooperativa con programación funcional integrada
- */
+
+ //Clase principal de la cooperativa con programación funcional integrada
+ 
 public final class Cooperativa {
     private static final Logger LOGGER = Logger.getLogger(Cooperativa.class.getName());
 
